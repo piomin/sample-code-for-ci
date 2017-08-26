@@ -52,7 +52,7 @@ public class PersonControllerTest {
 		Assert.assertNotNull(p.getId());
 	}
 	
-//	@Test
+	@Test
 	public void testUpdate() throws AuthenticationException {
 		controller.update(new Person(1, "X", "X", new Date(), Gender.MALE), "YWRtaW46YWRtaW4=");
 	}

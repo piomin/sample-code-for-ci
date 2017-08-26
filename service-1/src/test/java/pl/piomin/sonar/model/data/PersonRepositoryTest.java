@@ -29,7 +29,7 @@ public class PersonRepositoryTest {
 		repository.add(new Person(10, "X", "X", new Date(), Gender.MALE));
 	}
 	
-//	@Test(expected = IllegalArgumentException.class)
+	@Test(expected = IllegalArgumentException.class)
 	public void updateOkTest() {
 		repository.add(new Person(7, "X", "X", new Date(), Gender.MALE));
 	}
