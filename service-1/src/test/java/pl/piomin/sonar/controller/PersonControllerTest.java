@@ -22,7 +22,7 @@ public class PersonControllerTest {
 	@Autowired
 	PersonController controller;
 	
-//	@Test
+	@Test
 	public void testFindAll() throws AuthenticationException {
 		Set<Person> p = controller.findAll("YWRtaW46YWRtaW4=");
 		Assert.assertTrue(p.size() > 0);

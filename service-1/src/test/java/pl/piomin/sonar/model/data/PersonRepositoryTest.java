@@ -24,7 +24,7 @@ public class PersonRepositoryTest {
 		repository.add(new Person(null, "X", "X", new Date(), Gender.MALE));
 	}
 	
-//	@Test(expected = IllegalArgumentException.class)
+	@Test(expected = IllegalArgumentException.class)
 	public void addFailedTest() {
 		repository.add(new Person(10, "X", "X", new Date(), Gender.MALE));
 	}
